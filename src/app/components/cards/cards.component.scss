@@ -1,0 +1,12 @@
+.card{
+   box-shadow: 0 2px 2.5px rgba(193 ,202 ,215 , 0.25);
+   --bs-card-border-radius: 20px;
+   background-color: white;
+ 
+}
+
+.card-body{
+   --bs-card-spacer-x: 30px;
+   --bs-card-spacer-y: 30px;
+
+}

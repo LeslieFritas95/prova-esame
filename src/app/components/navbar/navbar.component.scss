@@ -1,0 +1,20 @@
+.navbar {
+   padding: 0px 15px 0px 15px;
+   box-shadow: 0 2px 2.5px rgba(193, 202, 215, 0.25);
+   --bs-navbar-padding-x: -10;
+}
+
+.nav-list {
+   border-right: 1px solid rgba(193, 202, 215, 0.25);
+   padding-right: 20px;
+}
+
+.container-fluid {
+   --bs-gutter-x: 0rem;
+   --bs-gutter-y: 1rem;
+}
+
+.nav-options {
+   background-color: #45db27;
+   color: white
+}

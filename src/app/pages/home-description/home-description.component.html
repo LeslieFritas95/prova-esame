@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+
+
+<div class="container-fluid">
+ <div class="m-4">
+   <button class="btn btn-outline-success m-2" (click)="orderByCountry()">Ordina per nome</button>
+   <button class="btn btn-outline-success" (click)="orderByPopolation()">Ordina per popolazione</button>
+ </div>
+  
+</div>
+
+<div *ngFor="let restCountry of restCountries;">
+   <app-cards [selectedRestCountries]="restCountry"></app-cards>
+</div>

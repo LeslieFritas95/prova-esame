@@ -1,0 +1,18 @@
+<div class="container-fluid">
+   <div class="card d-flex flex-row m-4">
+      <div class="p-4 mt-3">
+         <img src="{{selectedRestCountries?.flags?.svg}}" style="width:205px">
+
+      </div>
+      <div class="card-body">
+         <h5 class="card-title fw-bold">{{selectedRestCountries?.name?.common}}</h5>
+         <div class="">
+            <p class="text-muted">Capitale: {{selectedRestCountries?.capital}}
+               <br class="text-muted">Stato: {{selectedRestCountries?.region}}
+               <br class="text-muted">Popolazione Totale: {{selectedRestCountries?.population}}ab. 
+               <br class="text-muted">Maps: <a href="#">{{selectedRestCountries?.maps?.googleMaps}}</a>
+         </div>
+      </div>
+   </div>
+
+</div>
